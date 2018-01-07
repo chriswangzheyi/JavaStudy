@@ -1,4 +1,4 @@
-package multiThread;
+package multiThread.example.Ticket;
 
 public class TicketBookingSyn implements Runnable {
 

@@ -1,4 +1,4 @@
-package multiThread;
+package multiThread.example.Ticket;
 
 /*售票系统，没有锁*/
 
