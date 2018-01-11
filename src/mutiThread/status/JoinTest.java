@@ -51,6 +51,7 @@ class Joiner extends Thread
 				if(i==5){
 					System.out.println("sleeper准备加入到当前线程线程" + Thread.currentThread().getId());
 					m_sleeper.join();			//sleeper加入到当前线程,当前线程被阻塞，等待sleeper运行结束后这个线程才继续运行
+					//加入的先执行，然后再执行阻塞的
 				}					
 			}			
 		} catch (Exception e) {
